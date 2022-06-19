@@ -18,6 +18,7 @@ const App = () => {
             phone={data.phone}
             email={data.email}
             photo={data.photo}
+            key={data.phone}
           />
         );
       })}
